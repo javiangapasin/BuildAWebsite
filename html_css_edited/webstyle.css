@@ -1,0 +1,127 @@
+div.lnks a {
+  color: black;
+  text-decoration: none;
+}
+div.lnks a:hover {
+  color: blue;
+  text-decoration: none;
+}
+#BackToTop:hover{
+  color:blue;
+}
+a:visited{
+    color: purple;
+}
+
+body {
+  background-image: url("testbackground3.jpg");
+  /*background-color: #FFF3F3;*/
+  font-family: "Arial", serif;
+  padding: 20px;
+  margin: 0;
+}
+
+
+
+a.href{
+  color: black;
+}
+header img {
+  /*width: 100%;*/
+  padding: 42px;
+  display: block;
+  display:inline;
+  border-style: none;
+  /*background-image: url("toronto.jpg");*/
+}
+
+footer {
+  font-family: "Arial", serif;
+  background-color: white;
+  padding: 10px;
+}
+
+p{
+  font-family: "Arial", serif;
+  font-size: 20px;
+}
+
+p.content {
+  font-size: 27px;
+}
+
+h1{
+  font-size:75px;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  float: center;
+  width: 80%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+}
+
+/* Specify the styles for the navigation menu */
+
+nav.navbar {
+  width: 100%;
+  overflow: auto;
+  position: fixed;
+  background-color: black;
+}
+
+nav.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+nav.navbar li {
+  display: inline;
+}
+
+nav.navbar li a { /* Styling items within the list*/
+  padding: 4px 17px;
+  margin: 4px;
+  text-align: center;
+  text-decoration:none;
+  display: block;
+  width: 12%;
+  display: inline-block;
+}
+
+nav.navbar li a:link, a:visited {
+  background-color:#3A424A;
+  color: #FFFFFF;
+}
+
+nav.navbar ul li a:hover, a:active {
+  background-color:dodgerblue;
+}
+
+.fa {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,td{
+  padding:10px;
+}
